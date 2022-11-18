@@ -213,7 +213,7 @@ fn init_blocks(blocks: &mut Vec<Block>) {
 
 #[macroquad::main("breakout")]
 async fn main() {
-    set_pc_assets_folder("../res"); // requires ../ in helix
+    set_pc_assets_folder("res"); // requires ../ in helix
 
     let font = load_ttf_font("Heebo-VariableFont_wght.ttf").await.unwrap();
     let mut game_state = GameState::Menu;
