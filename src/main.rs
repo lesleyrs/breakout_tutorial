@@ -213,7 +213,7 @@ fn init_blocks(blocks: &mut Vec<Block>) {
 
 #[macroquad::main("breakout")]
 async fn main() {
-    set_pc_assets_folder("../"); // needed for helix
+    // set_pc_assets_folder("../"); // needed for helix
 
     let font = load_ttf_font("res/Heebo-VariableFont_wght.ttf")
         .await
